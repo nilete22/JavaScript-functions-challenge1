@@ -30,7 +30,7 @@ function isTypeOf(value, type) {
 
     default:
       throw new Error(
-        "Invalid type argument. Supported types: string, number, boolean, array"
+        "Invalid type argument. Supported types: string, number, boolean, array",
       );
   }
 }
