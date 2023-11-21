@@ -12,9 +12,6 @@
  * @returns {number}
  */
 function getDistanceFromThreshold(number, threshold) {
-  if (typeof number !== "number" || typeof threshold !== "number") {
-    throw new Error("Both arguments must be numbers");
-  }
   return number - threshold;
 }
 

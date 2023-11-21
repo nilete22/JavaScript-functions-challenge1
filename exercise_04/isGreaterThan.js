@@ -12,10 +12,6 @@
  * @returns {boolean}
  */
 function isGreaterThan(value, threshold) {
-  if (typeof value !== "number" || typeof threshold !== "number") {
-    throw new Error("Both arguments must be numbers");
-  }
-
   return value > threshold;
 }
 

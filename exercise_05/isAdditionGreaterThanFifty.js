@@ -12,10 +12,6 @@
  * @returns {boolean}
  */
 function isAdditionGreaterThanFifty(summand1, summand2) {
-  if (typeof summand1 !== "number" || typeof summand2 !== "number") {
-    throw new Error("Both arguments must be numbers");
-  }
-
   const sum = summand1 + summand2;
   return sum >= 50;
 }

@@ -27,11 +27,6 @@ function isTypeOf(value, type) {
 
     case "array":
       return Array.isArray(value);
-
-    default:
-      throw new Error(
-        "Invalid type argument. Supported types: string, number, boolean, array",
-      );
   }
 }
 

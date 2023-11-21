@@ -10,10 +10,6 @@
  * @returns {number}
  */
 function generateRandomNumberInRange(limit) {
-  if (typeof limit !== "number") {
-    throw new Error("Input must be a number");
-  }
-
   const randomNumber = Math.random() * (limit + 1);
 
   return Math.floor(randomNumber);

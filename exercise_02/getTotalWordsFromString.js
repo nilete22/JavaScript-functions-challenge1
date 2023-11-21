@@ -10,10 +10,6 @@
  * @returns {number}
  */
 function getTotalWordsFromString(inputString) {
-  if (typeof inputString !== "string") {
-    throw new Error("Input must be a string");
-  }
-
   const words = inputString.split(/\s+/);
   return words.length;
 }
