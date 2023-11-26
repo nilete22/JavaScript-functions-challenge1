@@ -15,18 +15,17 @@
  */
 
 function isTypeOf(value, type) {
-
   if (type === "string") {
-      return typeof value === "string";
+    return typeof value === "string";
   }
   if (type === "number") {
-      return typeof value === "number";
+    return typeof value === "number";
   }
   if (type === "boolean") {
-      return typeof value === "boolean";
+    return typeof value === "boolean";
   }
   if (type === "array") {
-      return Array.isArray(value);
+    return Array.isArray(value);
   }
 }
 
