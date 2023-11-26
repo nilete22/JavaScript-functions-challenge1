@@ -3,3 +3,15 @@
  * input: string (sentence)
  * output: number
  */
+
+/**
+ * Get the total number of words in a string.
+ * @param {string} inputString
+ * @returns {number}
+ */
+function getTotalWordsFromString(inputString) {
+  const words = inputString.split(/\s+/);
+  return words.length;
+}
+
+export default getTotalWordsFromString;

@@ -3,3 +3,14 @@
  * input: array (collection)
  * output: boolean
  */
+
+/**
+ * Check whether a collection (array) has elements.
+ * @param {Array} collection
+ * @returns {boolean}
+ */
+function checkCollectionHasElements(collection) {
+  return collection.length > 0;
+}
+
+export default checkCollectionHasElements;
